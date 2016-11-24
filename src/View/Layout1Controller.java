@@ -44,8 +44,8 @@ public class Layout1Controller {
             AnchorPane page = (AnchorPane) loader.load();
             Stage sendStage = new Stage();
             sendStage.setTitle("Superheader");
-            Scene scene = new Scene(page);
-            sendStage.setScene(scene);
+            Scene scene1 = new Scene(page);
+            sendStage.setScene(scene1);
 
             
             sendStage.show();
